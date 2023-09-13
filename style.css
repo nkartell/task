@@ -1,0 +1,149 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/carnaby-82KWr7KHwDg-unsplash-1.jpg');
+    background-size: cover;
+    background-position: center;   
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;   
+}
+
+.img-button {
+    width: 41px;
+    height: 41px;
+}
+
+.img-button-open {
+    width: 111px;
+    height: 38px;
+}
+
+.button {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    opacity: 70%;
+    transition-duration: 0.5s, 0.3s, 0.3s, 0.3s;
+    transition-property: opacity, width, border-radius, height;
+}
+
+.button-blue {
+    background-color: #3877EE;
+    
+}
+
+.button-green {
+    background-color:  #6ABF4B;
+    
+}
+
+.button.clicked {
+    position: absolute;
+    width: 111px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px; 
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 100%;
+    
+}
+
+.plus, .minus {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.minus {
+    display: none;
+}
+
+
+.button-1 {
+    top: 25%;
+    left: 30%;
+}
+
+.button-2 {
+    top: 62%;
+    left: 23%;
+}
+
+.button-3 {
+    top: 55%;
+    left: 56%;
+}
+
+.button-4 {
+    top: 20%;
+    left: 71%;
+}
+
+.button-5 {
+    top: 42%;
+    left: 73%;
+
+}
+
+.button-6 {
+    top: 65%;
+    left: 82%;
+}
+
+.button-7 {
+    top: 42%;
+    left: 35%;
+}
+
+.button-8 {
+    top: 35%;
+    left: 59%;
+}
+.button-9 {
+    top: 60%;
+    left: 68%;
+}
+.button-10 {
+    top: 72%;
+    left: 57%;
+}
+
+
+  
